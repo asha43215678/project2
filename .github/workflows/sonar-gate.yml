@@ -22,8 +22,8 @@ jobs:
       with:
         projectBaseDir: .
         args: >
-          -Dsonar.organization=my-org
-          -Dsonar.projectKey=my-Java-web-app
+          -Dsonar.organization=asha43215678
+          -Dsonar.projectKey=asha43215678_project2
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
